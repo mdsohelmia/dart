@@ -19,4 +19,14 @@ void main()
   print($message);
   print("${fullName.length}");
 
+  //final keyword
+  final String address = 'Hello';
+  // address = "helo";
+  // print(address);
+
+
+  //const keyword
+  const PI = 3.1416;
+  // PI = 10;
+  print(PI);
 }
